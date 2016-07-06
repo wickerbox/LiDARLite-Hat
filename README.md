@@ -3,13 +3,11 @@ A simple datalogging hat for the LiDAR-Lite rangefinder from PulsedLight3D.
 
 ### Getting Started
 
-10:30am
-
 The primary reference is the <a href="https://github.com/PulsedLight3D/LIDAR-Lite-Documentation/raw/master/Docs/LIDAR-Lite-v1-docs.pdf">LiDAR-Lite v1 Operating Manual</a>. 
 
 The board and the rangefinder must be connected by a custom jumper. The length of the jumper must be as short as possible. The mating connector to the LiDAR-Lite is Molex P/N 5023800600 (Digikey P/N WM2271-ND).
 
-The board must sit against the back of the unit. The board must be shaped according to page 10 of the manual. It may be double sided, in which case it must sit on spacers. 
+The board must sit against the back of the unit. The board must be shaped according to page 12 of the manual. It may be double sided, in which case it must sit on spacers. 
 
 <img src="boardsize.png">
 
@@ -36,3 +34,8 @@ EEPROM may be used on the microcontroller for persistent information.
 I make a block diagram on my way to figuring out which microcontroller to use. 
 
 <img src="block-diagram.png">
+
+### Setting up the KiCAD Project
+
+Before choosing a template with design rules, I have to decide which board house to use, and I choose OSH Park. They charge $5/square inch (two-layer) or $10/square inch (four-layer) for a set of three boards. 
+
