@@ -37,5 +37,6 @@ I make a block diagram on my way to figuring out which microcontroller to use.
 
 ### Setting up the KiCAD Project
 
-Before choosing a template with design rules, I have to decide which board house to use, and I choose OSH Park. They charge $5/square inch (two-layer) or $10/square inch (four-layer) for a set of three boards. 
+Before grabbing a project template, I'll need to decide on my board fabricator (for my design rules) and whether I'm making a 2-layer or 4-layer board. I'm using OSH Park and going with a four-layer board. 1.4x1.9 is 2.66 square inches, or $26.60 for a set of three four-layer boards. That's about $9 per board. It would only be $4.50 per board but I think layout's going to really be tight so I'm going with $9 for the first prototype.
 
+Therefore, I'm using my <a href="https://github.com/wickerbox/wickerlib/tree/master/templates/oshpark-4layer">OSH Park 4-layer template</a>. 
